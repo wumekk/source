@@ -10,87 +10,86 @@ Manager
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!afklimit | X | sets the maximum afk time |
-|!botname | (botname) | change the default bot name |
-|!bouncer+ | | toggle bouncer+ |
-|!skippos | X | set the position to which skip and lockskip moves the dj |
-|!clearchat | |clears the chat |
-|!cycle | | toggle DJ cycle |
-|!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
-|!language | (language) | specify the language you would like the bot to use |
-|!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
-|!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
-|!logout | | logs out account bot is hosted on |
-|!refresh | | refreshes the browser of whoever runs the bot |
-|!usercmdcd | X | set the cooldown on commands by grey users |
-|!usercommands | | toggle user commands |
-|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
+|!afklimit | X |  ustawia maksymalny czas AFK |
+|!botname | (botname) | zmienia domyślną nazwę bota |
+|!bouncer+ | | przełącza bouncer+ |
+|!skippos | X | ustawia pozycję do której skip i lockskip przenosi dj |
+|!clearchat | |wyczyszcza chat |
+|!cycle | | przełącza cykl DJ |
+|!cycletimer | X | ustawia maksymalny czas cyklu DJ podczas włączonego cycleguard'a |
+|!language | (language) | ustawia język jakim ma się posługiwać bot |
+|!locktimer | X | ustawia maksymalny czas zablokowania waitlisty, jeśli lockguard jest włączony |
+|!maxlength | X | ustawia maksymalną długość odtwarzania muzyki kiedy timeguard jest włączony |
+|!logout | | wylogowuje bota |
+|!refresh | | odświeża przeglądarke na której działa bot |
+|!usercmdcd | X | ustawia cooldown dla komend zwykłych użytkowników |
+|!usercommands | | włącza/wyłącza komendy dla użytkowników |
+|!voteskip | (X) | ustawia liczbę głosów aby pominąć nutę|
 
 Bouncer+
 --------
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!add | @user | add user to the waitlist |
-|!afkremoval | | toggles the afk check |
-|!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
-|!deletechat | @user | delete all the chats by a certain user |
-|!lock | | lock the waitlist |
-|!lockdown | | lock down the room: only staff can chat |
-|!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
-|!remove | @user | remove user from the waitlist |
-|!roulette | | start a roulette |
-|!songstats | | toggle song statistics |
-|!unlock | | unlock the waitlist |
-|!welcome | | toggle the welcome message on user join |
+|!add | @user | dodaje osobę do waitlist |
+|!afkremoval | | włącza/wyłącza sprawdzanie afk |
+|!autoskip | | skipuje piosenki automatycznie jak się skończą (używaj kiedy cykl się buguje) |
+|!deletechat | @user | usuwa wszystkie wiadomości danej osoby |
+|!lock | | zablokuj waitlist |
+|!lockdown | | zablokowuje pokój: tylko dla moderacji chatu |
+|!move | @user (X) | przenosi osobę na pozycję X w waitlist, domyślna to 1 |
+|!remove | @user | usuwa użytkownika z listy czekania waitlist |
+|!roulette | | zaczyna roulette |
+|!songstats | | włącza/wyłącza statystyki muzyk |
+|!unlock | | odblokowuje waitlist |
+|!welcome | | włącza/wyłącza wiadomość powitalną dla dołączających użytkowników |
 
 Bouncer
 -------
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
-|!afkreset | @user | resets the afk time of user |
-|!afktime | @user | shows how long user has been afk |
-|!autodisable | | toggle the autodisable |
-|!ban | @user | bans user for 1 day |
-|!blacklist / !bl | blacklistname | add the song to the specified blacklist |
-|!commanddeletion | | toggles if bot commands gets deleted |
-|!blinfo | | get information required to blacklist a song |
-|!cycleguard | | toggles the cycleguard |
-|!dclookup / !dc | (@user) | do dclookup for user |
-|!english | @user | ask user to speak english (asked in the language they set plug to) |
-|!eta | (@user) | shows when user will reach the booth |
-|!filter | | toggles the chat filter |
-|!forceskip | | forceskips the current song |
-|!historyskip | | toggles the history skip |
-|!jointime | @user | shows how long the user has been in the room |
-|!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
-|!kill | | shut down the bot |
-|!lockguard | | toggle the lockguard |
-|!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
-|!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
-|!mute | @user (X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
-|!reload | | reload the bot |
-|!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
-|!sessionstats | | display stats for the current session |
-|!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
-|!status | | display the bot's status and some settings |
-|!timeguard | | toggle the timeguard |
-|!togglebl | | toggle the blacklist |
-|!togglemotd | | toggle the motd |
-|!togglevoteskip | | toggle the voteskip |
-|!unban | @user | unban user |
-|!unmute | | unmute user |
-|!voteratio | @user | display the vote statistic for a user |
-|!whois | @user | returns plug related information about user |
+|!active | (X) | pokazuje ile użytkowników chatowało w czasie X ostatnich minut. Jeżeli X nie jest określony, 60 jest ustawione domyślnie |
+|!afkreset | @user | resetuje czas AFK dla użytkownika |
+|!afktime | @user | pokazuje jak długo użytkownik jest AFK |
+|!autodisable | | włącza/wyłącza autodisable |
+|!ban | @user | banuje użytkownika na 1 dzień |
+|!blacklist / !bl | blacklistname | dodaje muzykę do blacklisty |
+|!commanddeletion | | włącza/wyłącza jeżeli komendy bota zostają usuwane |
+|!blinfo | | daje informację, czy dana piosenka należy do blacklisty  |
+|!cycleguard | | włącza/wyłącza cycleguard |
+|!dclookup / !dc | (@user) | robi dclookup dla użytkowników |
+|!english | @user | prosi użytkownika o porozumiewanie się w języku angielskim |
+|!eta | (@user) | pokazuje kiedy użytkownik będzie przy stoisku DJ |
+|!filter | | włącza/wyłącza filtr chatu |
+|!forceskip | | forceskips aktualną muzykę |
+|!historyskip | | włącza/wyłącza history skip |
+|!jointime | @user | pokazuje jak długo użytkownik jest w tym pokoju |
+|!kick | (X) | kickuje użytkownika  na X minut, domyślnie-0.25 minuty (15 sekund) |
+|!kill | | wyłącza bota |
+|!lockguard | | włącza/wyłącza lockguard |
+|!lockskip | (reason) | skipuje, lockuje i przenosi  dj (pozycję można ustawić za pomocą !skippos) |
+|!motd | (X)/(message) | wiadomość dnia co X piosenek |
+|!mute | @user (X) | mute użytkownika na X minut, jeśli X nie zostanie określony, to zostanie zmutowany na zawsze |
+|!restricteta | | włącza/wyłącza ograniczenie eta: zwykli użytkownicy mogą użyć tylko raz na godzinę |
+|!sessionstats | | pokazuje statystyki dla aktualnej sesji |
+|!skip | (reason) | skipuje dj'a używając smartskip'a, działa jak lock i move użytkownika zależnie od różnych czynników (pozycja na którą dj jest przeniesiony można ustawić za pomocą !skippos)|
+|!status | | pokazuje status bota i parę jego ustawień |
+|!timeguard | | włącza/wyłącza timeguard |
+|!togglebl | | włącza/wyłącza blacklist |
+|!togglemotd | | włącza/wyłącza motd |
+|!togglevoteskip | | włącza/wyłącza voteskip |
+|!unban | @user | unban użytkownika |
+|!unmute | | unmute użytkownika |
+|!voteratio | @user | pokazuje statystyki głosowania przez użytkownika |
+|!whois | @user | pokazuje informacje na temat użytkownika |
 
 Resident DJ
 -----------
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!link | | give a link to the current song
+|!link | | daje link do aktualnej muzyki
 
 
 
@@ -99,26 +98,22 @@ User
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
-|!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
-|!ba | | explains the Brand Ambassador rank |
-|!slots | | play slots |
-|!commands | | gives a link to the commands |
-|!cookie | (@user) | give a cookie to user |
-|!dclookup / !dc | | use dclookup on yourself |
-|!emoji | | a link to a list with emoji's |
-|!eta | | shows how long before you reach the booth |
-|!fb | | links to the room's Facebook page (if set in the settings) |
-|!ghostbuster | @user | checks if user is ghosting |
-|!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
-|!help | | links to an image to help get people started on plug |
-|!join | | join the roulette if it's up |
-|!leave | | leave the roulette if you joined |
-|!link | | when the user is the DJ, give a link to the current song |
-|!banned | | links to the banned songs list (if set in the settings) |
+|!8ball | (message) | zadaj botowi pytanie, bot może odpowiedzieć tak albo nie w zależności od pytania |
+|!autowoot | | autowootuje muzyki |
+|!ba | | informacje na temat Brand Ambassador rank |
+|!slots | | zagraj w slots |
+|!commands | | daje link do komend |
+|!cookie | (@user) | daje ciastko dla osoby |
+|!dclookup / !dc | | użyj dclookup na sobie |
+|!emoji | | link to listy z emotikonami|
+|!eta | | pokazuje za ile będziesz DJ |
+|!ghostbuster | @user | sprawdza czy osoba ghostuje |
+|!gif | (message) | wkleja randomowy gif, możesz również dodać tag, aby szukał gifów w danym zakresie  |
+|!help | | linkuje do obrazku pomagającego osobą z pierwszą stycznością z plugiem |
+|!join | | dołącz do rulette jeśli jest włączona |
+|!leave | | opuść rulette jeśli jest włączona |
+|!link | | daje link do obecnie odtwarzanej muzyki |
+|!banned | | linkuje listę z zbanowanymi nutami |
 |!ping | | pong! |
-|!purchase | | returns link to purchase more plug notes |
-|!rules | | links to the rules (if set in the settings) |
-|!theme | | links to the room's theme (if set in the settings) |
-|!website | | links to the room's website (if set in the settings) |
-|!youtube | | links to the room's youtube page (if set in the settings) |
+|!rules | | linkuje do zasad na plugu |
+
