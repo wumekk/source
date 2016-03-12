@@ -1081,7 +1081,7 @@ var newMedia = obj.media;
                 basicBot.room.autoskipTimer = setTimeout(function() {
                     var endcid = API.getMedia().cid;
                     if (startcid === endcid) {
-                        API.sendChat('Song stuck, skipping...');
+                        API.sendChat('Nie włączył się kolejny utwór. Pomijam...');
                         API.moderateForceSkip();
                     }
                 }, remaining + 5000);
