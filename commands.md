@@ -39,7 +39,7 @@ Bouncer+
 |!lockdown | | lock down the room: only staff can chat |
 |!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
 |!remove | @user | remove user from the waitlist |
-|~~!roulette~~ | | ~~start a roulette~~ |
+|!roulette | | start a roulette |
 |!songstats | | toggle song statistics |
 |!unlock | | unlock the waitlist |
 |!welcome | | toggle the welcome message on user join |
@@ -102,6 +102,7 @@ User
 |!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
+|!slots | | play slots |
 |!commands | | gives a link to the commands |
 |!cookie | (@user) | give a cookie to user |
 |!dclookup / !dc | | use dclookup on yourself |
@@ -111,14 +112,13 @@ User
 |!ghostbuster | @user | checks if user is ghosting |
 |!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
 |!help | | links to an image to help get people started on plug |
-|~~!join~~ | | ~~join the roulette if it's up~~ |
-|~~!leave~~ | | ~~leave the roulette if you joined~~ |
+|!join | | join the roulette if it's up |
+|!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!op | | links to the OverPlayed list (if set in the settings) |
 |!ping | | pong! |
 |!purchase | | returns link to purchase more plug notes |
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
-|!thor | | users get moved to position 1 in the waitlist if they're worthy of Thor's hammer. |
 |!website | | links to the room's website (if set in the settings) |
 |!youtube | | links to the room's youtube page (if set in the settings) |
