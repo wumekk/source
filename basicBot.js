@@ -298,7 +298,7 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: null,
+            bannedLink: null,
             rulesLink: null,
             themeLink: null,
             fbLink: null,
@@ -2870,15 +2870,15 @@ var newMedia = obj.media;
             },
 
             opCommand: {
-                command: 'op',
+                command: 'banned',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.opLink === "string")
-                            return API.sendChat(subChat(basicBot.chat.oplist, {link: basicBot.settings.opLink}));
+                        if (typeof basicBot.settings.bannedLink === "string")
+                            return API.sendChat(subChat(basicBot.chat.oplist, {link: basicBot.settings.bannedLink}));
                     }
                 }
             },
