@@ -1010,7 +1010,7 @@ var newMedia = obj.media;
                                 API.sendChat("Minęło 6 minut, pomijam...");
                                 return API.moderateForceSkip();
                             }
-                        }, 360000);
+                        }, 6 * 60 * 1000);
                     }
                  }
             }, 2000);
