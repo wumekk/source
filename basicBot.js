@@ -1894,7 +1894,7 @@ var newMedia = obj.media;
             },
 
             commandsCommand: {
-                command: 'commands',
+                command: ['commands', 'komendy'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
