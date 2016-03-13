@@ -15,7 +15,7 @@ Manager
 |!bouncer+ | | przełącza bouncer+ |
 |!skippos | X | ustawia pozycję do której skip i lockskip przenosi dj |
 |!clearchat | |wyczyszcza chat |
-|!cycle | | przełącza cykl DJ |
+|!cykl | | przełącza cykl DJ |
 |!cycletimer | X | ustawia maksymalny czas cyklu DJ podczas włączonego cycleguard'a |
 |!language | (language) | ustawia język jakim ma się posługiwać bot |
 |!locktimer | X | ustawia maksymalny czas zablokowania waitlisty, jeśli lockguard jest włączony |
