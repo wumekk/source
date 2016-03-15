@@ -19,7 +19,7 @@ Manager
 |!cycletimer | X | ustawia maksymalny czas cyklu DJ podczas włączonego cycleguard'a |
 |!language | (language) | ustawia język jakim ma się posługiwać bot |
 |!locktimer | X | ustawia maksymalny czas zablokowania waitlisty, jeśli lockguard jest włączony |
-|!maxlength | X | ustawia maksymalną długość odtwarzania muzyki kiedy timeguard jest włączony |
+|~~!maxlength~~ | ~~X~~ | ~~ustawia maksymalną długość odtwarzania muzyki kiedy timeguard jest włączony~~ |
 |!logout | | wylogowuje bota |
 |!refresh | | odświeża przeglądarke na której działa bot |
 |!usercmdcd | X | ustawia cooldown dla komend zwykłych użytkowników |
