@@ -3655,7 +3655,7 @@ var newMedia = obj.media;
         }
     };
     
-/*       mehCommand = {
+       mehCommand = {
             command: 'meh',
             rank: 'manager',
             type: 'exact',
@@ -3669,7 +3669,7 @@ var newMedia = obj.media;
                 }
             }
         };           
-        MAM ZA DUZEGO RAKA */
+        /*MAM ZA DUZEGO RAKA (może pierdolona literówka w innym pliku psuła to gówno */
 
     loadChat(basicBot.startup);
 }).call(this);
