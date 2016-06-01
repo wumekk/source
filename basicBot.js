@@ -741,7 +741,7 @@
                 }, 1000, id);
             },
             changeDJCycle: function () {
-                $.getJSON('https://stg.plug.dj/_/rooms/state', function(data) {
+                $.getJSON('https://plug.dj/_/rooms/state', function(data) {
                     if (data.data[0].booth.shouldCycle) { // checks "" "shouldCycle": true "" if its true
                         API.moderateDJCycle(false); // Disables the DJ Cycle 
                         clearTimeout(basicBot.room.cycleTimer); // Clear the cycleguard timer
@@ -1359,7 +1359,7 @@ var newMedia = obj.media;
             basicBot.connectAPI();
             API.moderateDeleteChat = function (cid) {
                 $.ajax({
-                    url: "https://stg.plug.dj/_/chat/" + cid,
+                    url: "https://plug.dj/_/chat/" + cid,
                     type: "DELETE"
                 })
             };
@@ -1378,7 +1378,7 @@ var newMedia = obj.media;
                         kill();
                     }, 1000);
                     if (basicBot.settings.roomLock){
-                        window.location = 'https://stg.plug.dj' + basicBot.room.name;
+                        window.location = 'https://plug.dj' + basicBot.room.name;
                     }
                     else {
                         clearInterval(Check);
@@ -3627,7 +3627,7 @@ var newMedia = obj.media;
                                 }
                                 var slug = API.getUser(id).slug;
                                 if (typeof slug !== 'undefined') {
-                                    var profile = "https://stg.plug.dj/@/" + slug;
+                                    var profile = "https://plug.dj/@/" + slug;
                                 } else {
                                     var profile = "~";
                                 }
