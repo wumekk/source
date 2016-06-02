@@ -1007,10 +1007,10 @@ var newMedia = obj.media;
                             if (API.getMedia().cid !== newMedia.cid) {
                                 return void(0);
                             } else {
-                                API.sendChat("Minęło 6 minut, pomijam...");
+                                API.sendChat("Minęło 5 minut, pomijam...");
                                 return API.moderateForceSkip();
                             }
-                        }, 6 * 60 * 1000);
+                        }, 5 * 60 * 1000);
                     }
                  }
             }, 2000);
