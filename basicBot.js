@@ -241,7 +241,7 @@
         name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
-        cmdLink: "http://bit.ly/dtvkomendy",
+        cmdLink: "http://worstudyrde.github.io/bot-komendy/",
         chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
